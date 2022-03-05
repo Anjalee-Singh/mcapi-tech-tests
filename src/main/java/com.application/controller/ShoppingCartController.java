@@ -1,4 +1,4 @@
-package controller;
+package com.application.controller;
 
 
 import com.application.service.CalculateCostService;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import product.ShoppingCart;
+import com.application.product.ShoppingCart;
 
 @RestController
 @RequestMapping("totalcost")

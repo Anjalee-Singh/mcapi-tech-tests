@@ -1,4 +1,4 @@
-package product;
+package com.application.product;
 
 import lombok.*;
 
